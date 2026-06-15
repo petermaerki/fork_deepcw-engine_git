@@ -1,6 +1,6 @@
 # deepcw-engine
 
-This repository contains the DeepCW model and a minimal example.
+This repository contains the [DeepCW](https://github.com/e04/web-deep-cw-decoder) model and a minimal example.
 
 ## Preparing WAV Audio
 
