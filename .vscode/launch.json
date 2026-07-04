@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "decode_morse.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/examples/python/decode_morse.py",
+            "args": [
+                "--wav",
+                "ka9q-recording-2026-07-02T14-37-30.wav"
+            ],
+            "cwd": "${workspaceFolder}/examples/python",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "decode_morse_live.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/examples/python/decode_morse_live.py",
+            "args": [],
+            "cwd": "${workspaceFolder}/examples/python",
+            "console": "integratedTerminal"
+        }
+    ]
+}
